@@ -4,7 +4,7 @@ Jimat-dan-SENang-Kira
 Jimat-dan-SENang-Kira is Python implementation of Malaysia's over-the-counter payment rounding mechanism.
 
 What is "Jimat dan SENang Kira"
-===============================
+-------------------------------
 
 Bank Negara Malaysia(BNM) introduced a Rounding Mechanism to the nearest multiple of 5 sen for the over-the-counter
 payments and was fully implemented by 1st April 2008.
