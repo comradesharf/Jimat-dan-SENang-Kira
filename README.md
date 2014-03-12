@@ -18,24 +18,57 @@ to save on handling costs and for customers, it will make payment faster and mor
 
 The table below illustrates how the Rounding Mechanism works:
 
------------------------------------------------------------------------------------------
-| Bill end in sen | Round off to the nearest |               Total amount               |
-|                 |           5 sen          |----------------------------------------- |
-|                 |                          | Total amount before | Total amount after |
-|                 |                          |       rounding      |      rounding      |
------------------------------------------------------------------------------------------
-|      1, 2       |           Down           |         82.01       |        82.00       |
-|                 |                          |         82.02       |        82.00       |
-|---------------------------------------------------------------------------------------|
-|      3, 4       |            Up            |         82.03       |        82.05       |
-|                 |                          |         82.04       |        82.05       |
-|---------------------------------------------------------------------------------------|
-|      6, 7       |           Down           |         82.06       |        82.05       |
-|                 |                          |         82.07       |        82.05       |
-|---------------------------------------------------------------------------------------|
-|      8, 9       |            Up            |         82.08       |        82.10       |
-|                 |                          |         82.09       |        82.10       |
------------------------------------------------------------------------------------------
+<table>
+  <tr align="center">
+    <td rowspan="2">Bill end in sen</td>
+    <td rowspan="2">Round off to the nearest 5 sen</td>
+    <td colspan="2">Total</td>
+  </tr>
+  <tr align="center">
+    <td>Total amount before rounding</td>
+    <td>Total amount after rounding</td>
+  </tr>
+  <tr align="center">
+    <td rowspan="2">1, 2</td>
+    <td rowspan="2">Down</td>
+    <td>82.01</td>
+    <td>82.00</td>
+  </tr>
+  <tr align="center">
+    <td>82.02</td>
+    <td>82.00</td>
+  </tr>
+  <tr align="center">
+    <td rowspan="2">3, 4</td>
+    <td rowspan="2">Up</td>
+    <td>82.03</td>
+    <td>82.05</td>
+  </tr>
+  <tr align="center">
+    <td>82.04</td>
+    <td>82.05</td>
+  </tr>
+  <tr align="center">
+    <td rowspan="2">6, 7</td>
+    <td rowspan="2">Down</td>
+    <td>82.06</td>
+    <td>82.05</td>
+  </tr>
+  <tr align="center">
+    <td>82.07</td>
+    <td>82.05</td>
+  </tr>
+  <tr align="center">
+    <td rowspan="2">8, 9</td>
+    <td rowspan="2">Up</td>
+    <td>82.08</td>
+    <td>82.10</td>
+  </tr>
+  <tr align="center">
+    <td>82.09</td>
+    <td>82.10</td>
+  </tr>
+</table>
 
 Example
 =======
